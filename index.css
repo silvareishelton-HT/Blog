@@ -1,0 +1,13 @@
+button{
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+button:hover{ /* pseudo-classe - mouse sobre o botão*/
+    background: bisque;
+}
+button:active{ /* pseudo-classe - botão sendo pressionado*/
+    background: olive;
+}

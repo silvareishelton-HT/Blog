@@ -1,0 +1,139 @@
+body{
+    background-image: url(plano\ de\ fundo\ geral.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+h1{
+    color: maroon;
+}
+h2{
+    color: darkolivegreen;
+}
+button{
+    background: rgb(172, 97, 97);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+button:hover{ 
+    background: bisque;
+    color: black;
+}
+button:active{ 
+    background: olive;
+    color: bisque;
+}
+.card{
+    width: 60px;
+    padding: 15px;
+    background-color: rgb(252, 246, 239);
+    border: 2px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    color: dimgray;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    gap: 20px;
+}
+a{
+    color: dimgray;
+}
+.blocos{
+    background-color: white;
+    border: 3px solid maroon;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 20px;
+}
+.rodape{
+    background-color: rgb(172, 97, 97);
+    text-align: center;
+    color: beige;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+}
+.inicio{
+    background-color: rgb(245, 236, 220);
+    padding: 20px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+.avaliacao {
+    text-align: center;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    background-color: rgb(209, 162, 162);
+}
+.avaliacao h2, .resumo h2 {
+    color: #8b5268;
+}
+.avaliacao p {
+    color: #765c66;
+}
+.avaliacao form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.avaliacao textarea {
+    padding: 12px;
+    border: 1px solid #d9bdc8;
+    border-radius: 10px;
+    resize: vertical;
+    min-height: 90px;
+    font-family: inherit;
+    background-color: #fffafa;
+}
+
+.botoes button {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(172, 97, 97, 0.925);
+    color: white;
+    cursor: pointer;
+}
+.botoes button:hover {
+    background-color: #865269;
+}
+.resumo {
+    margin: 35px auto;
+    padding: 20px;
+    text-align: center;
+}
+.tabela-container {
+    overflow-x: auto;
+}
+.resumo table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fffafa;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.resumo th {
+    background-color:rgb(172, 97, 97);
+    color: white;
+    padding: 15px;
+}
+.resumo td {
+    padding: 14px;
+    color: #624b55;
+    border-bottom: 1px solid #ead9df;
+}
+.resumo tr:nth-child(even) {
+    background-color: #f8eef2;
+}
+.resumo tr:hover {
+    background-color: #f1dfe7;
+}
